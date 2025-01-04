@@ -103,7 +103,7 @@ internal class Search
 
         if (found==0)
         {
-            bool transferReady = false;
+       
             string transferCity = "";
             DateTime arrivalTime = new DateTime(2020, 1, 1, 1, 1, 1);
             DateTime deparTime = new DateTime(2020, 1, 1, 1, 1, 1);
@@ -112,7 +112,8 @@ internal class Search
            
 
             var nondirects = _context.flights.OrderBy(u => u.Date).Where(p => p.FromCity == From_  && p.Date >= depDate_  && p.FromHostCity == false).ToList();
-            foreach (var nondirect in nondirects) { 
+            foreach (var nondirect in nondirects) {
+                bool transferReady = false;
                 if (nondirect != null)
             {
                transferCity = nondirect.ToCity;
@@ -132,6 +133,7 @@ internal class Search
 
                             tra_deparTime = retu.Date.Date.Add(retu.DepartureTime);
                             tra_arrivalTime = tra_deparTime.AddMinutes(retu.Duration);
+                   
                             if (tra_deparTime > arrivalTime)
                             {
                                 transferReady = true;

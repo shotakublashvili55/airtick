@@ -1,0 +1,414 @@
+[{
+"ICAO_Code": "CDG",
+"Airport_Name": "Charles de Gaulle Airport",
+"City": "Paris"
+}
+,
+{
+"ICAO_Code": "LHR",
+"Airport_Name": "London Heathrow Airport",
+"City": "London"
+}
+,
+{
+"ICAO_Code": "FRA",
+"Airport_Name": "Frankfurt am Main Airport",
+"City": "Frankfurt"
+}
+,
+{
+"ICAO_Code": "AMS",
+"Airport_Name": "Amsterdam Schiphol Airport",
+"City": "Amsterdam"
+}
+,
+{
+"ICAO_Code": "MAD",
+"Airport_Name": "Adolfo Suárez Madrid–Barajas Airport",
+"City": "Madrid"
+}
+,
+{
+"ICAO_Code": "BCN",
+"Airport_Name": "Barcelona–El Prat Airport",
+"City": "Barcelona"
+}
+,
+{
+"ICAO_Code": "MUC",
+"Airport_Name": "Munich Airport",
+"City": "Munich"
+}
+,
+{
+"ICAO_Code": "FCO",
+"Airport_Name": "Leonardo da Vinci–Fiumicino Airport",
+"City": "Rome"
+}
+,
+{
+"ICAO_Code": "DUB",
+"Airport_Name": "Dublin Airport",
+"City": "Dublin"
+}
+,
+{
+"ICAO_Code": "ZRH",
+"Airport_Name": "Zurich Airport",
+"City": "Zurich"
+}
+,
+{
+"ICAO_Code": "CPH",
+"Airport_Name": "Copenhagen Airport",
+"City": "Copenhagen"
+}
+,
+{
+"ICAO_Code": "BRU",
+"Airport_Name": "Brussels Airport",
+"City": "Brussels"
+}
+,
+{
+"ICAO_Code": "OSL",
+"Airport_Name": "Oslo Gardermoen Airport",
+"City": "Oslo"
+}
+,
+{
+"ICAO_Code": "ARN",
+"Airport_Name": "Stockholm Arlanda Airport",
+"City": "Stockholm"
+}
+,
+{
+"ICAO_Code": "HEL",
+"Airport_Name": "Helsinki-Vantaa Airport",
+"City": "Helsinki"
+}
+,
+{
+"ICAO_Code": "ATH",
+"Airport_Name": "Athens International Airport",
+"City": "Athens"
+}
+,
+{
+"ICAO_Code": "VIE",
+"Airport_Name": "Vienna International Airport",
+"City": "Vienna"
+}
+,
+{
+"ICAO_Code": "PRG",
+"Airport_Name": "Václav Havel Airport Prague",
+"City": "Prague"
+}
+,
+{
+"ICAO_Code": "LIS",
+"Airport_Name": "Lisbon Portela Airport",
+"City": "Lisbon"
+}
+,
+{
+"ICAO_Code": "WAW",
+"Airport_Name": "Warsaw Chopin Airport",
+"City": "Warsaw"
+}
+,
+{
+"ICAO_Code": "BUD",
+"Airport_Name": "Budapest Ferenc Liszt International Airport",
+"City": "Budapest"
+}
+,
+{
+"ICAO_Code": "SOF",
+"Airport_Name": "Sofia Airport",
+"City": "Sofia"
+}
+,
+{
+"ICAO_Code": "OTP",
+"Airport_Name": "Henri Coanda International Airport",
+"City": "Bucharest"
+}
+,
+{
+"ICAO_Code": "RIX",
+"Airport_Name": "Riga International Airport",
+"City": "Riga"
+}
+,
+{
+"ICAO_Code": "TLL",
+"Airport_Name": "Tallinn Airport",
+"City": "Tallinn"
+}
+,
+{
+"ICAO_Code": "VNO",
+"Airport_Name": "Vilnius Airport",
+"City": "Vilnius"
+}
+,
+{
+"ICAO_Code": "BEG",
+"Airport_Name": "Belgrade Nikola Tesla Airport",
+"City": "Belgrade"
+}
+,
+{
+"ICAO_Code": "SKG",
+"Airport_Name": "Thessaloniki Airport",
+"City": "Thessaloniki"
+}
+,
+{
+"ICAO_Code": "ZAG",
+"Airport_Name": "Zagreb Airport",
+"City": "Zagreb"
+}
+,
+{
+"ICAO_Code": "HND",
+"Airport_Name": "Tokyo Haneda Airport",
+"City": "Tokyo"
+}
+,
+{
+"ICAO_Code": "NRT",
+"Airport_Name": "Narita International Airport",
+"City": "Tokyo"
+}
+,
+{
+"ICAO_Code": "PEK",
+"Airport_Name": "Beijing Capital International Airport",
+"City": "Beijing"
+}
+,
+{
+"ICAO_Code": "PVG",
+"Airport_Name": "Shanghai Pudong International Airport",
+"City": "Shanghai"
+}
+,
+{
+"ICAO_Code": "DEL",
+"Airport_Name": "Indira Gandhi International Airport",
+"City": "Delhi"
+}
+,
+{
+"ICAO_Code": "DXB",
+"Airport_Name": "Dubai International Airport",
+"City": "Dubai"
+}
+,
+{
+"ICAO_Code": "DOH",
+"Airport_Name": "Hamad International Airport",
+"City": "Doha"
+}
+,
+{
+"ICAO_Code": "SIN",
+"Airport_Name": "Singapore Changi Airport",
+"City": "Singapore"
+}
+,
+{
+"ICAO_Code": "ICN",
+"Airport_Name": "Incheon International Airport",
+"City": "Seoul"
+}
+,
+{
+"ICAO_Code": "BKK",
+"Airport_Name": "Suvarnabhumi Airport",
+"City": "Bangkok"
+}
+,
+{
+"ICAO_Code": "JFK",
+"Airport_Name": "John F. Kennedy International Airport",
+"City": "New York"
+}
+,
+{
+"ICAO_Code": "LAX",
+"Airport_Name": "Los Angeles International Airport",
+"City": "Los Angeles"
+}
+,
+{
+"ICAO_Code": "ORD",
+"Airport_Name": "O’Hare International Airport",
+"City": "Chicago"
+}
+,
+{
+"ICAO_Code": "ATL",
+"Airport_Name": "Hartsfield-Jackson Atlanta International Airport",
+"City": "Atlanta"
+}
+,
+{
+"ICAO_Code": "DFW",
+"Airport_Name": "Dallas/Fort Worth International Airport",
+"City": "Dallas"
+}
+,
+{
+"ICAO_Code": "YYZ",
+"Airport_Name": "Toronto Pearson International Airport",
+"City": "Toronto"
+}
+,
+{
+"ICAO_Code": "MEX",
+"Airport_Name": "Mexico City International Airport",
+"City": "Mexico City"
+}
+,
+{
+"ICAO_Code": "GRU",
+"Airport_Name": "São Paulo/Guarulhos–Governador André Franco Montoro Airport",
+"City": "São Paulo"
+}
+,
+{
+"ICAO_Code": "EZE",
+"Airport_Name": "Ministro Pistarini International Airport",
+"City": "Buenos Aires"
+}
+,
+{
+"ICAO_Code": "BOG",
+"Airport_Name": "El Dorado International Airport",
+"City": "Bogotá"
+}
+,
+{
+"ICAO_Code": "JNB",
+"Airport_Name": "O. R. Tambo International Airport",
+"City": "Johannesburg"
+}
+,
+{
+"ICAO_Code": "CPT",
+"Airport_Name": "Cape Town International Airport",
+"City": "Cape Town"
+}
+,
+{
+"ICAO_Code": "CAI",
+"Airport_Name": "Cairo International Airport",
+"City": "Cairo"
+}
+,
+{
+"ICAO_Code": "NBO",
+"Airport_Name": "Jomo Kenyatta International Airport",
+"City": "Nairobi"
+}
+,
+{
+"ICAO_Code": "LOS",
+"Airport_Name": "Murtala Muhammed International Airport",
+"City": "Lagos"
+}
+,
+{
+"ICAO_Code": "ADD",
+"Airport_Name": "Addis Ababa Bole International Airport",
+"City": "Addis Ababa"
+}
+,
+{
+"ICAO_Code": "CMN",
+"Airport_Name": "Mohammed V International Airport",
+"City": "Casablanca"
+}
+,
+{
+"ICAO_Code": "DSS",
+"Airport_Name": "Blaise Diagne International Airport",
+"City": "Dakar"
+}
+,
+{
+"ICAO_Code": "ACC",
+"Airport_Name": "Kotoka International Airport",
+"City": "Accra"
+}
+,
+{
+"ICAO_Code": "DAR",
+"Airport_Name": "Julius Nyerere International Airport",
+"City": "Dar es Salaam"
+}
+,
+{
+"ICAO_Code": "SYD",
+"Airport_Name": "Sydney Kingsford Smith Airport",
+"City": "Sydney"
+}
+,
+{
+"ICAO_Code": "MEL",
+"Airport_Name": "Melbourne Airport",
+"City": "Melbourne"
+}
+,
+{
+"ICAO_Code": "BNE",
+"Airport_Name": "Brisbane Airport",
+"City": "Brisbane"
+}
+,
+{
+"ICAO_Code": "AKL",
+"Airport_Name": "Auckland Airport",
+"City": "Auckland"
+}
+,
+{
+"ICAO_Code": "CHC",
+"Airport_Name": "Christchurch Airport",
+"City": "Christchurch"
+}
+,
+{
+"ICAO_Code": "PER",
+"Airport_Name": "Perth Airport",
+"City": "Perth"
+}
+,
+{
+"ICAO_Code": "WLG",
+"Airport_Name": "Wellington International Airport",
+"City": "Wellington"
+}
+,
+{
+"ICAO_Code": "NAN",
+"Airport_Name": "Nadi International Airport",
+"City": "Nadi"
+}
+,
+{
+"ICAO_Code": "HNL",
+"Airport_Name": "Daniel K. Inouye International Airport",
+"City": "Honolulu"
+}
+,
+{
+"ICAO_Code": "POM",
+"Airport_Name": "Jacksons International Airport",
+"City": "Port Moresby"
+}
+]

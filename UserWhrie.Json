@@ -1,6 +1,6 @@
 {
-  "From": "LAX",
-  "To": "JFK",
+  "From": "JFK",
+  "To": "LAX",
   "DepartureDate": "01.01.2025",
   "ReturnDate": "",
   "Adult": 1,

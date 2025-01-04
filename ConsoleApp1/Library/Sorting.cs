@@ -17,7 +17,13 @@ public class TicketOffer
     public string Airline { get; set; }
     public string From { get; set; }
     public string To { get; set; }
+
+    public string fromAirportName { get; set; }
+
+    public string toAirportName { get; set; }
     public string TransferCity { get; set; }
+
+    public string transferAirportName { get; set; }
     public string Departure { get; set; }
     public string Arrival { get; set; }
     public string TransferRouteNo { get; set; }

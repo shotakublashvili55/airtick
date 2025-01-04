@@ -20,32 +20,49 @@ internal class Search
 
 
 
-    public static void Results ()
+    public static void Results()
     {
-       
+
 
         DataContext _context = new DataContext();
         var dt = DateTime.Now;
         string dateFormat = "dd.MM.yyyy";
-     
+
 
         string content = "[";
 
         string filePathtoFront = "D:/STEP2/AVIABILETEBI/ConsoleApp1/TicketsResults_unOrdered.Json";
 
         string From_ = FrontLink.SearchParameters().Item1;
-       string To_ = FrontLink.SearchParameters().Item2;
-       string depDate = FrontLink.SearchParameters().Item3;
-       string retDate = FrontLink.SearchParameters().Item4;
-       int adult = FrontLink.SearchParameters().Item5;
-       int child = FrontLink.SearchParameters().Item6;
+        string To_ = FrontLink.SearchParameters().Item2;
+        string depDate = FrontLink.SearchParameters().Item3;
+        string retDate = FrontLink.SearchParameters().Item4;
+        int adult = FrontLink.SearchParameters().Item5;
+        int child = FrontLink.SearchParameters().Item6;
 
-    
+
         int found = 0;
+        string toAirportName = "";
+        string fromAirportName = "";
+        string transferAirportName = "";
+
         string dateString = depDate;
         DateTime depDate_ = DateTime.ParseExact(dateString, dateFormat, CultureInfo.InvariantCulture).Date;
 
-        var directs = _context.flights.Where(p => p.FromCity == From_ && p.ToCity==To_ && p.Date >= depDate_).Take(1).ToList();
+        var fromAirportName_ = _context.city.FirstOrDefault(p => p.ShortName.ToUpper() == From_);
+        if (fromAirportName_ != null)
+        {
+            fromAirportName = fromAirportName_.Fullname;
+        }
+
+
+        var toAirportName_ = _context.city.FirstOrDefault(p => p.ShortName.ToUpper() == To_);
+        if (toAirportName_ != null)
+        {
+            toAirportName = toAirportName_.Fullname;
+        } 
+
+          var directs = _context.flights.Where(p => p.FromCity == From_ && p.ToCity==To_ && p.Date >= depDate_).Take(1).ToList();
         if (directs!=null)
         {
             foreach (var direct in directs)
@@ -66,7 +83,10 @@ internal class Search
                 content = content + $"\"Airline\": \"{direct.Airline}\",\n";
                 content = content + $"\"From\": \"{From_}\",\n";
                 content = content + $"\"To\": \"{To_}\",\n";
+                content = content + $"\"fromAirportName\": \"{fromAirportName}\",\n";
+                content = content + $"\"toAirportName\": \"{toAirportName}\",\n";
                 content = content + $"\"TransferCity\": \"{""}\",\n";
+                content = content + $"\"traisferAirportName\": \"{""}\",\n";
                 content = content + $"\"Departure\": \"{direct.Date}\",\n";
                 content = content + $"\"Arrival\": \"{arrivalTime}\",\n";
                 content = content + $"\"TransferRouteNo\": \"{""}\",\n";
@@ -121,7 +141,15 @@ internal class Search
                             TimeSpan totalDur = tra_arrivalTime - deparTime;
                             if (transferReady && totalDur.TotalMinutes > 0 && totalDur.TotalMinutes < 4320)
                             {
+                                if (transferCity != null)
+                                {
+                                   var transferAirportName_ = _context.city.FirstOrDefault(p => p.ShortName.ToUpper() == transferCity);
 
+                                    if (transferAirportName_ != null)
+                                    {
+                                        transferAirportName = transferAirportName_.Fullname;
+                                    }
+                                }
                                 if (content != "[")
                                 {
                                     content = content + ",\n";
@@ -133,7 +161,10 @@ internal class Search
                                 content = content + $"\"Airline\": \"{nondirect.Airline}\",\n";
                                 content = content + $"\"From\": \"{From_}\",\n";
                                 content = content + $"\"To\": \"{To_}\",\n";
+                                content = content + $"\"fromAirportName\": \"{fromAirportName}\",\n";
+                                content = content + $"\"toAirportName\": \"{toAirportName}\",\n";
                                 content = content + $"\"TransferCity\": \"{transferCity}\",\n";
+                                content = content + $"\"transferAirportName\": \"{transferAirportName}\",\n";
                                 content = content + $"\"Departure\": \"{deparTime}\",\n";
                                 content = content + $"\"Arrival\": \"{arrivalTime}\",\n";
                                 content = content + $"\"TransferRouteNo\": \"{retu.RouteNo}\",\n";

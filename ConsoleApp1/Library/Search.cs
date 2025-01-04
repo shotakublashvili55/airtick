@@ -178,9 +178,6 @@ internal class Search
                                 content = content + $"\"BusinessPrice\": \"{nondirect.PriceBuiAdult + retu.PriceBuiAdult}\"\n";
                                 content = content + "}\n";
 
-
-
-
                             };
 
                         }
@@ -197,86 +194,3 @@ internal class Search
     }
 }
 
-
-//public static void DisplayTicketDetails(TicketOffer offers)
-//{
-//    Console.WriteLine($"Route: {offers.RouteNo}");
-//    Console.WriteLine($"Airline: {offers.Airline}");
-//    Console.WriteLine($"From: {offers.From} To: {offers.To}");
-//    Console.WriteLine($"Transfer City: {offers.TransferCity}");
-//    Console.WriteLine($"Departure: {offers.DepartureTime}");
-//    Console.WriteLine($"Arrival: {offers.ArrivalTime}");
-
-//}
-
-
-
-// List<string> outputList = new List<string>();
-
-
-
-
-
-
-
-
-
-
-// return ticket;
-//outputList.Add($"{nondirect.RouteNo} {From_} - {transferCity}: {deparTime} {arrivalTime}");
-//                            outputList.Add($"Transfer Time: {tra_deparTime - arrivalTime}");
-//                            outputList.Add($"{retu.RouteNo} {transferCity} - {retu.ToCity}: {tra_deparTime} {tra_arrivalTime}");
-//                            outputList.Add($"       Total Dudation: {totalDur} \n");
-
-
-//    outputList.Add($"{nondirect.RouteNo} {From_} - {transferCity}: {deparTime} {arrivalTime}");
-//outputList.Add($"Transfer Time: {tra_deparTime - arrivalTime}");
-//outputList.Add($"{retu.RouteNo} {transferCity} - {retu.ToCity}: {tra_deparTime} {tra_arrivalTime}");
-//outputList.Add($"       Total Dudation: {totalDur} \n");
-
-
-//foreach (var line in outputList)
-//{
-//    Console.WriteLine(line);
-//}
-
-
-//TicketOffer offers = new TicketOffer(
-//    nondirect.RouteNo,
-//    nondirect.Airline,
-//    From_,
-//    To_,
-//    transferCity,
-//    deparTime,
-//    arrivalTime,
-//    tra_deparTime,
-//    tra_arrivalTime,
-//    tra_deparTime - arrivalTime,
-//    totalDur,
-//    nondirect.PriceEcoAdult + retu.PriceEcoAdult,
-//    nondirect.PriceBuiAdult + retu.PriceBuiAdult);
-
-
-//  ResultsToJson.DisplayTicketDetails(offers);
-
-//Console.WriteLine($"{direct.RouteNo} {direct.FromCity} {direct.ToCity} {direct.Date}  {arrivalTime}");
-//Console.WriteLine($"    Total durarion: {arrivalTime - direct.Date} \n");
-//Console.WriteLine("-------------------------------");
-
-
-
-                //TicketOffer offers = new TicketOffer(
-                //               direct.RouteNo,
-                //               direct.Airline,
-                //               From_,
-                //               To_,
-                //               "",
-                //               direct.Date,
-                //               arrivalTime,
-                //               dt,
-                //               dt,
-                //               dt - dt,
-                //               arrivalTime - direct.Date,
-                //               direct.PriceEcoAdult,
-                //               direct.PriceBuiAdult);
-                //ResultsToJson.DisplayTicketDetails(offers);

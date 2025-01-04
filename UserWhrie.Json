@@ -1,7 +1,7 @@
 {
-  "From": "MIA",
-  "To": "LAX",
-  "DepartureDate": "01.01.2025",
+  "From": "LAX",
+  "To": "DXB",
+  "DepartureDate": "02.01.2025",
   "ReturnDate": "",
   "Adult": 1,
   "Child": 4

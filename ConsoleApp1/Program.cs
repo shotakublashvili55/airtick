@@ -6,7 +6,10 @@ using ConsoleApp1.Models;
 
 Console.WriteLine("Hello World!");
 
-//FrontLink.WebEntered();
-//Search.Results();
-//Sorting.Sort();
-//ExportAirpirts.AirpotsToJson();
+Console.WriteLine("Hello Shota");
+
+
+FrontLink.WebEntered();
+Search.Results();
+Sorting.Sort();
+ExportAirpirts.AirpotsToJson();
